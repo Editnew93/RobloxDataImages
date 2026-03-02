@@ -135,7 +135,11 @@ function module:installfromGit(id, to)
 	finished = false
 	animation(false, nil)
 	install(id, to)
+	finished = true
+	task.wait()
+	clearc()
 	printc("Waiting for a new instance.")
+	
 end
 
 function module:installPackage(packageid)
@@ -152,6 +156,8 @@ function module:installPackage(packageid)
 		install("Installation_".. packageid .."_Files/" .. urls, tostring(packageid).."/"..urls)
 	end
 	finished = true
+	task.wait()
+	clearc()
 	printc("Waiting for a new instance.")
 end
 print("created functions.")
