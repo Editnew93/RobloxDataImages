@@ -1,5 +1,9 @@
 local module = {}
-
+if _G.RDILoaded then
+	module = _G.RDI
+	return module
+end
+_G.RDILoaded = true
 local imageURLLoc = "https://raw.githubusercontent.com/Editnew93/RobloxDataImages/refs/heads/main/RBLX/"
 local finished = false
 local locked -- Variable to store the latest locked log
@@ -154,6 +158,7 @@ print("created functions.")
 task.wait(0.05)
 printc("Confirming...")
 task.wait(0.5)
+_G.RDI = module
 printc("Waiting for a new instance.")
 
 return module
