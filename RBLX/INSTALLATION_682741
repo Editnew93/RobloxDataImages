@@ -1,0 +1,24 @@
+{
+  "name": "RDI Icons",
+  "author": "Editnew93",
+  "version": "1.0.0",
+  "idlist": [
+    "AddCharacter.png",
+    "Connection_Image_Full.png",
+    "Connection_Image_Medium.png",
+    "Connection_Image_Low.png",
+    "Connection_Image_VeryBad.png",
+    "Connection_Image_NoConnection.png",
+    "MD_Error.png",
+    "MD_Info.png",
+    "MD_Success.png",
+    "MD_Warn.png",
+    "Arrow_DownArrow.png",
+    "Arrow_LeftArrow.png",
+    "Arrow_RightArrow.png",
+    "Arrow_UpArrow.png",
+    "MoonIcon.png",
+    "DayIcon.png",
+    "DeleteIcon.png"
+  ]
+}
