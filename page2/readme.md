@@ -22,7 +22,7 @@ ImageLabel.Image = "packageasset://123456/image.png"
 ```
 <br>
 
-To use the packageasset, you need to install a package first. Go to [Codes](/..#codes) to learn how to use the module and look at the packages in the folder [RBLX](/../RBLX) which does not have readme.md. The 6 digits on the last of the name of a file is a package ID.
+To use the packageasset, you need to install a package first. Go to [Codes](/../../tree/main/#codes) to learn how to use the module and look at the packages in the folder [RBLX](/../../tree/main/RBLX) which does not have readme.md. The 6 digits on the last of the name of a file is a package ID.
 <br>
 ## workspaceasset://
 `workspaceasset://` lets you use anything in your workspace folder.
