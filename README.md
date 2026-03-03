@@ -49,3 +49,5 @@ When its loaded or not loaded, you can use ***functions***.
 |:--------------------------------------------------------:|:------------:|
 |`RDI:installfromGit(the file location, where to save.)`   | `RDI:installfromGit("Files/TextExample.png", "TestExample.png")`|
 |`RDI:installPackage(package ID)`   | `RDI:installPackage(123456)`|
+### Pages
+1 [2](/page2)
