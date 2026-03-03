@@ -38,4 +38,4 @@ ImageLabel.Image = "workspaceasset://image.png"
 I will add more info on the page soon! :D
 
 ### Pages
-[1](/../main) 2
+[1](/../../tree/main) 2
