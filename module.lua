@@ -247,3 +247,5 @@ printc("Confirming...")
 task.wait(0.5)
 _G.RDI = module
 printc("Waiting for a new instance.")
+
+return module
